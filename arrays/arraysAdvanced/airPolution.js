@@ -57,6 +57,7 @@ function asd(matrix,commands) {
             return 'No polluted areas'
         }
     }
+    console.log('asd')
     console.log(findPollutedIndex(matrix))
 }
 asd(["5 7 3 28 32",
